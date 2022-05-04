@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Demo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>    <!--设置状态栏文字颜色为亮色-->
+        <!-- Customize your theme here. -->
+        
+    </style>
+    <style name="activityAnim">
+        <item name="android:activityOpenEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+</resources>
